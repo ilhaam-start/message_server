@@ -1,0 +1,10 @@
+{
+    "name": "ilhaamahmed-message-database",
+    "domain": false,
+    "hostname": "ilhaamahmed-message-database",
+    "image": "postgres:12",
+    "env": {
+        "POSTGRES_PASSWORD": "@ilhaamahmed-postgres-password"
+    },
+    "volumes": ["ilhaamahmed_message_database_volume:/var/lib/postgresql/data"]
+}
